@@ -1,0 +1,86 @@
+.form {
+    padding: 1rem;
+    max-width: 30rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    background:linear-gradient(180deg,#1569C7, #488AC7); /*linear-gradient(180deg, #307e6c, #2b996d); */
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family:'Arial';  /* 'Roboto Condensed', sans-serif; */
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #2916F5; /* #76c0ae;*/
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: linear-gradient(180deg,#00008B,#2554C7);/* linear-gradient(180deg, #1f584b, #17493d); */
+    color: #c2e9e0;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    width:100px;
+  }
+  
+  .buttonAlt {
+    font-family: 'Arial', sans-serif;
+    border: none;
+    background: transparent;
+    color: #c2e9e0;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: linear-gradient(180deg,#191970,#1974D2); /* linear-gradient(180deg, #1b5346, #113c32);*/
+  }
+  
+  .buttonAlt:hover {
+    background: transparent;
+    color: #91e1d0;
+  }
+
+  .error_msg
+  {
+     margin-top:3px;
+     color:red;
+     text-align:center;
+     visibility:visible;   
+  }
+
+  .errorInput
+  {
+     background-color:  #ECC5C0 !important;      
+  }
+
+  .hideme
+  {
+     visibility:hidden;
+  }
+  
